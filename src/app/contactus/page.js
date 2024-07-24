@@ -1,9 +1,6 @@
-// src/app/contactus/page.js
 import Image from 'next/image';
 import { FaEnvelope, FaPhone } from 'react-icons/fa';
 import Link from 'next/link';
-import { FaSomeIcon } from 'react-icons/fa';
-
 
 export default function ContactUs() {
   return (
@@ -21,14 +18,14 @@ export default function ContactUs() {
           </div>
           <h1 className="text-3xl font-bold text-gray-800 mb-4">Swajeet Chavan</h1>
         </div>
-        <div className="flex flex-col items-center mb-6">
-          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-6 w-full flex items-center">
-            <FaEnvelope className="text-blue-500 text-2xl mr-4" />
-            <p className="text-gray-700 text-lg">swajeetchavan732@gmail.com</p>
+        <div className="flex flex-col items-center mb-6 space-y-4">
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 w-full flex items-center">
+            <FaEnvelope className="text-blue-500 text-xl mr-3" />
+            <p className="text-gray-700 text-base sm:text-lg">swajeetchavan732@gmail.com</p>
           </div>
-          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 w-full flex items-center">
-            <FaPhone className="text-green-500 text-2xl mr-4" />
-            <p className="text-gray-700 text-lg">+91 98346 10192</p>
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 w-full flex items-center">
+            <FaPhone className="text-green-500 text-xl mr-3" />
+            <p className="text-gray-700 text-base sm:text-lg">+91 98346 10192</p>
           </div>
         </div>
         <div className="flex justify-center mt-6">
