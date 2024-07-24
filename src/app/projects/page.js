@@ -1,5 +1,7 @@
 // src/app/projects/page.js
 import Link from 'next/link';
+import { FaSomeIcon } from 'react-icons/fa';
+
 
 const projects = [
   {
